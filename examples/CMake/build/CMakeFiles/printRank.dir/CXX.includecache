@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/robinsonm/git/infomm-cpp-training/examples/CMake/printRank.cpp
+boost/mpi/environment.hpp
+-
+boost/mpi/communicator.hpp
+-
+iostream
+-
+
